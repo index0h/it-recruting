@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Ликбез для IT HR</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+    <style>
+        .column-3 {
+            display: inline-block;
+            width: 32.5%;
+            vertical-align: middle !important;
+        }
+
+        .column-left {
+            float: left;
+            width: 50%;
+        }
+
+        .column-right {
+            float: right;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <div class="slides">
+        <section data-background="./img/logo.png"></section>
+
+        <section>
+            <h1>Ликбез для it рекрутеров</h1>
+
+            <h2># 02 Сеть</h2>
+
+            <p><a href="https://twitter.com/index0h">@index0h</a></p>
+        </section>
+
+        <section>
+            <h2>Как общаются программы?</h2>
+
+            <div class="fragment">
+                <div class="column-left">
+                    <p>Протокол</p>
+                </div>
+                <div class="column-right">
+                    <p>Спецификация</p>
+                </div>
+            </div>
+
+            <div class="fragment">
+                <div class="column-left">
+                    <p>API</p>
+                </div>
+                <div class="column-right">
+                    <p>Реализация спецификации</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Модель TCP/IP</h2>
+
+            <div>
+                <div class="column-3">
+                    <p>Клиент<br>
+                        <small>↓</small>
+                    </p>
+                </div>
+
+                <div class="column-3">
+                    <p>Прикладной</p>
+                </div>
+
+                <div class="column-3">
+                    <p>Сервер<br>
+                        <small>↑</small>
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div class="column-3">
+                    <p>↓</p>
+                </div>
+
+                <div class="column-3">
+                    <p>Транспортный</p>
+                </div>
+
+                <div class="column-3">
+                    <p>↑</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="column-3">
+                    <p>↓</p>
+                </div>
+
+                <div class="column-3">
+                    <p>Сетевой</p>
+                </div>
+
+                <div class="column-3">
+                    <p>↑</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="column-3">
+                    <p>↓</p>
+                </div>
+
+                <div class="column-3">
+                    <p>Канальный</p>
+                </div>
+
+                <div class="column-3">
+                    <p>↑</p>
+                </div>
+            </div>
+
+            <div>→</div>
+
+        </section>
+
+        <section>
+            <h3>Программирование под web</h3>
+
+            <div>
+                <div class="column-3">
+                    <p>
+                    <nobr>Браузер (frontend)</nobr>
+                    </p>
+                </div>
+
+                <div class="column-3">
+                    <p>Прикладной</p>
+                </div>
+
+                <div class="column-3">
+                    <p>Сервер (backend)</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="column-3">
+                    <div>
+                        <p>
+                        <nobr>Верстка: HTML + CSS</nobr>
+                        </p><br>
+                    </div>
+                    <div>
+                        <p>JavaScript</p>
+                    </div>
+
+                </div>
+
+                <div class="column-3"></div>
+
+                <div class="column-3">
+                    <p>PHP</p>
+
+                    <p>JavaScript</p>
+
+                    <p>Ruby</p>
+
+                    <p>Python</p>
+
+                    <p>Java</p>
+
+                    <p>...</p>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    Reveal.initialize({
+        controls: true,
+        progress: false,
+        history: true,
+        center: true,
+        transition: 'slide',
+
+        dependencies: [
+            {
+                src: 'lib/js/classList.js', condition: function () {
+                return !document.body.classList;
+            }
+            },
+            {
+                src: 'plugin/markdown/marked.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'plugin/markdown/markdown.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                condition: function () {
+                    return !!document.querySelector('pre code');
+                },
+                callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            },
+            {src: 'plugin/zoom-js/zoom.js', async: true},
+            {src: 'plugin/notes/notes.js', async: true}
+        ]
+    });
+
+</script>
+
+
+</body>
+</html>
