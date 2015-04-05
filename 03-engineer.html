@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Ликбез для IT HR</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+    <style>
+        .column-3 {
+            display: inline-block;
+            width: 32.5%;
+            vertical-align: middle !important;
+        }
+
+        .column-left {
+            float: left;
+            width: 50%;
+            vertical-align: middle !important;
+        }
+
+        .column-right {
+            float: right;
+            width: 50%;
+            vertical-align: middle !important;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <div class="slides">
+        <!--<section data-background="./img/background.jpg"></section>-->
+
+        <section>
+            <h1>Ликбез для it рекрутеров</h1>
+
+            <h2># 03 Программисты</h2>
+        </section>
+
+        <section>
+            <h2>Опыт</h2>
+
+            <h4>Стажер</h4>
+
+            <div>
+                <div class="column-left">
+                    <img src="./img/03-engineer/schoolboy.jpg">
+                </div>
+
+                <div class="column-right">
+                    <p>Знаний чуть меньше чем никаких</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Опыт</h2>
+
+            <h4>Junior</h4>
+
+            <div>
+                <div class="column-left">
+                    <img src="./img/03-engineer/student.jpg">
+                </div>
+
+                <div class="column-right">
+                    <ul>
+                        <li>Базовые знания</li>
+                        <li>Умеет гуглить</li>
+                        <li>Решает задачи "в лоб"</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Опыт</h2>
+
+            <h4>Middle</h4>
+
+            <div>
+                <div class="column-left">
+                    <img src="./img/03-engineer/middle.jpg">
+                </div>
+
+                <div class="column-right">
+                    <ul>
+                        <li>Опыт типовых задач</li>
+                        <li><nobr>Взвешивает последствия</nobr></li>
+                        <li>Мелкий проект</li>
+                        <li><nobr>Модуль крупного проекта</nobr></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Опыт</h2>
+
+            <h4>Senior</h4>
+
+            <div>
+                <div class="column-left">
+                    <img src="./img/03-engineer/senior.jpg">
+                </div>
+
+                <div class="column-right">
+                    <ul>
+                        <li>Опыт не типовых задач</li>
+                        <li>Знает много нюансов</li>
+                        <li>Средний проект</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Опыт</h2>
+
+            <h4>Team Lead</h4>
+
+            <div>
+                <div class="column-left">
+                    <img src="./img/03-engineer/team-lead.jpg">
+                </div>
+
+                <div class="column-right">
+                    <p>Senior + Manager</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Предпочтения</h2>
+
+            <div class="column-3">
+                <p>Исполнитель</p>
+                <img src="./img/03-engineer/special_forces.jpg">
+            </div>
+
+            <div class="column-3">
+                <p>Гик</p>
+                <img src="./img/03-engineer/quadrocopter.jpg">
+            </div>
+
+            <div class="column-3">
+                <p>Головолом</p>
+                <img src="./img/03-engineer/red_button.jpg">
+            </div>
+        </section>
+
+        <!--<section data-background="./img/background.jpg"></section>-->
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    Reveal.initialize({
+        controls: true,
+        progress: false,
+        history: true,
+        center: true,
+        transition: 'slide',
+
+        dependencies: [
+            {
+                src: 'lib/js/classList.js', condition: function () {
+                return !document.body.classList;
+            }
+            },
+            {
+                src: 'plugin/markdown/marked.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'plugin/markdown/markdown.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                condition: function () {
+                    return !!document.querySelector('pre code');
+                },
+                callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            },
+            {src: 'plugin/zoom-js/zoom.js', async: true},
+            {src: 'plugin/notes/notes.js', async: true}
+        ]
+    });
+
+</script>
+
+
+</body>
+</html>

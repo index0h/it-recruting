@@ -54,6 +54,7 @@
 <div class="reveal">
 
     <div class="slides">
+        <!--<section data-background="./img/background.jpg"></section>-->
 
         <section>
             <h1>Ликбез для it рекрутеров</h1>
@@ -63,54 +64,68 @@
         </section>
 
         <section>
-            <section>
-                <img src="./img/01-basic/cat.jpg">
-            </section>
-            <section>
-                <h2>Не убивайте котиков!</h2>
-                <img style="-webkit-filter: grayscale(100%);" src="./img/01-basic/dead-cat.jpg">
-            </section>
-            <section>
-                <div class="column-left">
-                    <p>Процессор</p>
-                    <img src="./img/01-basic/processor.jpg">
-                </div>
-                <div class="column-right">
-                    <p>Системный блок</p>
-                    <img src="./img/01-basic/system_block.jpg">
-                </div>
-            </section>
-            <section>
-                <div class="column-left">
-                    <p>Интернет</p>
-                    <img src="./img/01-basic/internet.png">
-                </div>
-                <div class="column-right">
-                    <p>Браузеры</p>
-                    <img src="./img/01-basic/browsers.jpg">
-                </div>
-            </section>
-            <section>
-                <div>Компьютерщики</div>
-                <div class="column-left">
-                    <p>В реальности</p>
-                </div>
-                <div class="column-right">
-                    <p>В фильмах</p>
-                    <img src="./img/01-basic/the_it_crowd.jpg">
-                </div>
-            </section>
+            <h1>План</h1>
 
-            <section>
-                <h2>РАЗНЫЕ ВЕЩИ</h2>
+            <ul>
+                <li>То, что нельзя говорить</li>
+                <li>Базовые понятие</li>
+                <li>Типы языков</li>
+                <li>DRY</li>
+                <li>Как общаются программы</li>
+            </ul>
+        </section>
 
-                <div class="column-left">
-                    <p>Java</p>
-                </div>
-                <div class="column-right">
-                    <p>JavaScript</p>
-                </div>
-            </section>
+        <section>
+            <img src="./img/01-basic/cat.jpg">
+        </section>
+
+        <section>
+            <h2>Не убивайте котиков!</h2>
+            <img src="./img/01-basic/dead-cat.jpg">
+        </section>
+
+        <section>
+            <div class="column-left">
+                <p>Процессор</p>
+                <img src="./img/01-basic/processor.jpg">
+            </div>
+            <div class="column-right">
+                <p>Системный блок</p>
+                <img src="./img/01-basic/system_block.jpg">
+            </div>
+        </section>
+
+        <section>
+            <div class="column-left">
+                <p>Интернет</p>
+                <img src="./img/01-basic/internet.jpg">
+            </div>
+            <div class="column-right">
+                <p>Браузеры</p>
+                <img src="./img/01-basic/browsers.jpg">
+            </div>
+        </section>
+
+        <section>
+            <div>Компьютерщики</div>
+            <div class="column-left">
+                <p>В реальности</p>
+            </div>
+            <div class="column-right">
+                <p>В фильмах</p>
+                <img src="./img/01-basic/the_it_crowd.jpg">
+            </div>
+        </section>
+
+        <section>
+            <h2>РАЗНЫЕ ВЕЩИ</h2>
+
+            <div class="column-left">
+                <p>Java</p>
+            </div>
+            <div class="column-right">
+                <p>JavaScript</p>
+            </div>
         </section>
 
         <section>
@@ -118,7 +133,7 @@
 
             <div class="column-left">
                 <p>Hardware</p>
-                <img src="./img/01-basic/hardware.png">
+                <img src="./img/01-basic/hardware.jpg">
             </div>
             <div class="column-right">
                 <p>Software</p>
@@ -141,97 +156,78 @@
         <section>
             <h2>Базовые понятия</h2>
 
-            <div class="fragment">
-                <div class="column-3">
-                    <p>Печатная плата</p>
-                </div>
-                <div class="column-3">
-                    <p>Сами по себе бесполезны</p>
-                </div>
-                <div class="column-3">
-                    <p>Ребенок</p>
-                </div>
+            <div class="column-3">
+                <p>Печатная плата</p>
+                <img src="./img/01-basic/hardware.jpg">
             </div>
-
-            <div class="fragment">
-                <div class="column-3">
-                    <p>
-                        <small>↓</small>
-                        <br>Драйвер
-                    </p>
-                </div>
-                <div class="column-3">
-                    <p>Средсво связи</p>
-                </div>
-                <div class="column-3">
-                    <p>
-                        <small>↓</small>
-                        <br>Язык
-                    </p>
-                </div>
+            <div class="column-3">
+                <p>Сами по себе бесполезны</p>
             </div>
-
-            <div class="fragment">
-                <div class="column-3">
-                    <p>
-                        <small>↓</small>
-                        <br>Операционная система
-                    </p>
-                </div>
-                <div class="column-3">
-                    <p>Среда существования</p>
-                </div>
-                <div class="column-3">
-                    <p>
-                        <small>↓</small>
-                        <br>Общество
-                    </p>
-                </div>
+            <div class="column-3">
+                <p>Ребенок</p>
+                <img src="./img/01-basic/baby.jpg">
             </div>
+        </section>
 
-            <div class="fragment">
-                <div class="column-3">
-                    <p>
-                        <small>↓</small>
-                        <br>Прикладная программа
-                    </p>
-                </div>
-                <div class="column-3">
-                    <p>Конкретные услуги</p>
-                </div>
-                <div class="column-3">
-                    <p>
-                        <small>↓</small>
-                        <br>Парикмахерская
-                    </p>
-                </div>
+        <section>
+            <h2>Базовые понятия</h2>
+
+            <div class="column-3">
+                <p>Драйвер</p>
+                <img src="./img/01-basic/drivers.jpg">
+            </div>
+            <div class="column-3">
+                <p>Средство общения</p>
+            </div>
+            <div class="column-3">
+                <p>Язык</p>
+                <img src="./img/01-basic/bricks.jpg">
+            </div>
+        </section>
+
+        <section>
+            <h2>Базовые понятия</h2>
+
+            <div class="column-3">
+                <p><nobr>Операционная система</nobr></p>
+                <img src="./img/01-basic/windows.jpg">
+            </div>
+            <div class="column-3">
+                <p>Среда существования</p>
+            </div>
+            <div class="column-3">
+                <p>Общество</p>
+                <img src="./img/01-basic/people.jpg">
+            </div>
+        </section>
+
+        <section>
+            <h2>Базовые понятия</h2>
+
+            <div class="column-3">
+                <p><nobr>Прикладная программа</nobr></p>
+                <img src="./img/01-basic/word.jpg">
+            </div>
+            <div class="column-3">
+                <p>Конкретные услуги</p>
+            </div>
+            <div class="column-3">
+                <p>Парикмахерская</p>
+                <img src="./img/01-basic/barber-shop.jpg">
             </div>
         </section>
 
         <section>
             <h2>Типы прикладных программ</h2>
 
-            <div class="fragment">
-                <div class="column-3">
+            <div>
+                <div class="column-left">
                     <p>Desktop</p>
+                    <img src="./img/01-basic/office.jpg">
                 </div>
-                <div class="column-3">
-                    <p>Работает только там, где запущен</p>
-                </div>
-                <div class="column-3">
-                    <p>Парикмахерская</p>
-                </div>
-            </div>
-
-            <div class="fragment">
-                <div class="column-3">
+                <div class="column-right">
                     <p>Клиент-серверные</p>
-                </div>
-                <div class="column-3">
-                    <p>Состоит из 2+ программ</p>
-                </div>
-                <div class="column-3">
-                    <p>Доставка пиццы</p>
+                    <img src="./img/01-basic/browsers.jpg">
                 </div>
             </div>
         </section>
@@ -239,110 +235,115 @@
         <section>
             <h3>Типы языков программирования</h3>
 
-            <section>
-                <p>Компилируемые: С, С++, Golang, Rust, Delphi,...</p>
+            <p>Компилируемые: С, С++, Golang, Rust, Delphi,...</p>
 
-                <div class="column-left">
-                    <pre><code>#include &lt;stdio.h&gt;</code></pre>
-                    <pre><code>main()</code></pre>
-                    <pre><code>{</code></pre>
-                    <pre><code>    printf("hello, world\n");</code></pre>
-                    <pre><code>}</code></pre>
+            <div class="column-left">
+                <pre><code>#include &lt;stdio.h&gt;</code></pre>
+                <pre><code>main()</code></pre>
+                <pre><code>{</code></pre>
+                <pre><code>    printf("hello, world\n");</code></pre>
+                <pre><code>}</code></pre>
 
-                    <p style="float: left"><b style="color: green">+</b> Производительность</p>
+                <p style="float: left"><b style="color: green">+</b> Производительность</p>
+            </div>
+
+            <div class="column-right">
+                <pre><code>7f 45 4c 46 02 01 01 00</code></pre>
+                <pre><code>00 00 00 00 00 00 00 00</code></pre>
+                <pre><code>02 00 3e 00 01 00 00 00</code></pre>
+                <pre><code>40 04 40 00 00 00 00 00</code></pre>
+                <pre><code>...</code></pre>
+
+                <p style="float: left"><b style="color: red">-</b> Обязательная сборка</p>
+            </div>
+
+        </section>
+
+        <section>
+            <h3>Типы языков программирования</h3>
+
+            <p>Интерпретируемые: PHP, JavaScript, Ruby, Python,...</p>
+
+            <div class="column-left">
+                <div>
+                    <pre><code>x = 1</code></pre>
+                    <pre><code>x = x + 5</code></pre>
+                    <pre><code>x = x * 2</code></pre>
+                    <pre><code>print x</code></pre>
                 </div>
 
-                <div class="column-right">
-                    <pre><code>7f 45 4c 46 02 01 01 00</code></pre>
-                    <pre><code>00 00 00 00 00 00 00 00</code></pre>
-                    <pre><code>02 00 3e 00 01 00 00 00</code></pre>
-                    <pre><code>40 04 40 00 00 00 00 00</code></pre>
-                    <pre><code>...</code></pre>
-
-                    <p style="float: left"><b style="color: red">-</b> Обязательная сборка</p>
-                </div>
-
-            </section>
-
-            <section>
-                <p>Интерпретируемые: PHP, JavaScript, Ruby, Python,...</p>
-
-                <div class="column-left">
-                    <div>
-                        <pre><code>x = 1</code></pre>
-                        <pre><code>x = x + 5</code></pre>
-                        <pre><code>x = x * 2</code></pre>
-                        <pre><code>print x</code></pre>
-                    </div>
-
-                    <div>
-                        <p style="float: left"><b style="color: green">+</b> Гибкость</p>
-
-                        <p style="float: left"><b style="color: green">+</b> Кроссплатформенность</p>
-                    </div>
-                </div>
-
-                <div class="column-right">
-                    <div>
-                        <pre class="fragment"><code>x = 1</code></pre>
-                        <pre class="fragment"><code>x = 6</code></pre>
-                        <pre class="fragment"><code>x = 12</code></pre>
-                        <pre class="fragment"><code>12</code></pre>
-                    </div>
-
-                    <div>
-                        <p style="float: left"><b style="color: red">-</b> Производительность</p>
-
-                        <p style="float: left"><b style="color: red">-</b> Требует интерпретатор</p>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <p>Смешанные: Java, C#,...</p>
-
-                <div class="column-left">
-
+                <div>
                     <p style="float: left"><b style="color: green">+</b> Гибкость</p>
 
-                    <p style="float: left"><b style="color: green">+</b> Производительность</p>
+                    <p style="float: left"><b style="color: green">+</b> Кроссплатформенность</p>
+                </div>
+            </div>
+
+            <div class="column-right">
+                <div>
+                    <pre class="fragment"><code>x = 1</code></pre>
+                    <pre class="fragment"><code>x = 6</code></pre>
+                    <pre class="fragment"><code>x = 12</code></pre>
+                    <pre class="fragment"><code>12</code></pre>
                 </div>
 
-                <div class="column-right">
-                    <p style="float: left"><nobr><b style="color: red">-</b> Требует виртуальную машину</nobr></p>
+                <div>
+                    <p style="float: left"><b style="color: red">-</b> Производительность</p>
+
+                    <p style="float: left"><b style="color: red">-</b> Требует интерпретатор</p>
                 </div>
-            </section>
+            </div>
+        </section>
+
+        <section>
+            <h3>Типы языков программирования</h3>
+
+            <p>Смешанные: Java, C#,...</p>
+
+            <div class="column-left">
+
+                <p style="float: left"><b style="color: green">+</b> Гибкость</p>
+
+                <p style="float: left"><b style="color: green">+</b> Производительность</p>
+            </div>
+
+            <div class="column-right">
+                <p style="float: left"><nobr><b style="color: red">-</b> Требует виртуальную машину</nobr></p>
+            </div>
         </section>
 
         <section>
             <h2>DRY (Не повторяйся)</h2>
 
-            <section>
-                <h3>Функции</h3>
+            <div>
+                <video data-autoplay data-src="img/01-basic/the-code.ogg" type="video/ogg"></video>
+            </div>
+        </section>
 
-                <div class="column-left">
-                    <div>
-                        <pre><code>function pow3(x) {</code></pre>
-                        <pre><code>    return x * x * x;</code></pre>
-                        <pre><code>}</code></pre>
-                    </div>
+        <section>
+            <h2>DRY: Функции</h2>
+
+            <div class="column-left">
+                <div>
+                    <pre><code>function pow3(x) {
+    return x * x * x;
+}</code></pre>
                 </div>
+            </div>
 
-                <div class="column-right">
-                    <div>
-                        <pre><code>pow3(2);  // 8</code></pre>
-                        <pre><code>pow3(5);  // 125</code></pre>
-                        <pre><code>pow3(-3); // -27</code></pre>
-                    </div>
+            <div class="column-right">
+                <div>
+                    <pre><code>pow3(2); // 8</code></pre>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section>
-                <h3>ООП</h3>
+        <section>
+            <h2>DRY: ООП</h2>
 
-                <div class="column-left">
-                    <div>
-                        <pre><code>class CocktailB52 {
+            <div class="column-left">
+                <div>
+                    <pre><code>class CocktailB52 {
     public $coffeeLiqueur = 20;
     public $creamLiqueur  = 20;
     public $orangeLiqueur = 20;
@@ -355,147 +356,81 @@
         echo "Flaming B52";
     }
 }</code></pre>
-                    </div>
                 </div>
-
-                <div class="column-right">
-                    <img src="./img/01-basic/b52.jpg">
-                </div>
-            </section>
-
-            <section>
-                <h3>Библиотеки</h3>
-
-                <div class="column-left">
-                    <p>Предоставляют конкретный функционал</p>
-                </div>
-
-                <div class="column-right">
-                    <img src="./img/01-basic/books.jpg">
-                </div>
-            </section>
-
-            <section>
-                <h3>Фреймворки</h3>
-
-                <div class="column-left" style="text-align: left">
-                    <p>
-                    <nobr>Реализуют скелет приложения</nobr>
-                    <br>Легко расширяются
-                    </p>
-                </div>
-
-                <div class="column-right">
-                    <img src="./img/01-basic/skeleton.jpg">
-                </div>
-            </section>
-
-            <section>
-                <h3>CMS</h3>
-
-                <div class="column-left">
-                    <p>Готовый сайт и конструктор к нему</p>
-                </div>
-
-                <div class="column-right">
-                    <img src="./img/01-basic/houses.jpg">
-                </div>
-            </section>
-
-            <section>
-                <h3>Сервис-ориентированные системы</h3>
-
-                <div class="column-left">
-                    <p>Каждая часть системы функционирует отдельно</p>
-                </div>
-
-                <div class="column-right">
-                    <img src="./img/01-basic/puzzle.jpg">
-                </div>
-            </section>
-        </section>
-
-        <section>
-            <h2>Про программистов</h2>
-            <section>
-                <br>
-                <p>Опыт</p>
-
-                <div class="fragment">
-                    <div class="column-left">
-                        <p>Junior</p>
-                    </div>
-
-                    <div class="column-right">
-                        <p>Нужно обучать</p>
-                    </div>
-                </div>
-
-                <div class="fragment">
-                    <div class="column-left">
-                        <p>Middle</p>
-                    </div>
-
-                    <div class="column-right">
-                        <p>Решает типовые задачи</p>
-                    </div>
-                </div>
-
-                <div class="fragment">
-                    <div class="column-left">
-                        <p>Senior</p>
-                    </div>
-
-                    <div class="column-right">
-                        <p>Задачи проектирования</p>
-                    </div>
-                </div>
-
-                <div class="fragment">
-                    <div class="column-left">
-                        <p>Team Lead</p>
-                    </div>
-
-                    <div class="column-right">
-                        <p>Как Senior, но круче + менеджер</p>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <br>
-                <p>Предпочтения</p>
-
-                <div class="fragment column-3">
-                    <p>Исполнитель</p>
-                    <img src="./img/01-basic/special_forces.jpg">
-                </div>
-
-                <div class="fragment column-3">
-                    <p>Гик</p>
-                    <img src="./img/01-basic/quadrocopter.jpg">
-                </div>
-
-                <div class="fragment column-3">
-                    <p>Головолом</p>
-                    <img src="./img/01-basic/red_button.jpg">
-                </div>
-            </section>
-
-        </section>
-
-        <section>
-            <h3>Это все круто, на что обращать внимание?</h3>
-
-            <div style="text-align: left">
-
-                <p class="fragment">#1 Уровень кандидата</p>
-                <p class="fragment">#2 Используемые языки</p>
-                <p class="fragment">#3 Используемые фреймворки</p>
-                <p class="fragment">#4 Что конкретно будет делать программист</p>
             </div>
 
+            <div class="column-right">
+                <img src="./img/01-basic/b52.jpg">
+            </div>
         </section>
+
+        <section>
+            <h2>DRY: Библиотеки</h2>
+
+            <div class="column-left">
+                <p>Наборы классов и функций для использования в других проектах</p>
+            </div>
+
+            <div class="column-right">
+                <img src="./img/01-basic/books.jpg">
+            </div>
+        </section>
+
+        <section>
+            <h2>DRY: Фреймворки</h2>
+
+            <div class="column-left" style="text-align: left">
+                <p><nobr>Готовый каркас программы</nobr></p>
+            </div>
+
+            <div class="column-right">
+                <img src="./img/01-basic/skeleton.jpg">
+            </div>
+        </section>
+
+        <section>
+            <h3>DRY: CMS (Content Management System)</h3>
+
+            <div class="column-left">
+                <p>Готовый сайт и конструктор к нему</p>
+                <img src="./img/01-basic/cms.jpg">
+            </div>
+
+            <div class="column-right">
+                <img src="./img/01-basic/houses.jpg">
+            </div>
+        </section>
+
+        <section>
+            <h4>DRY: Сервис-ориентированные системы</h4>
+
+            <div class="column-left">
+                <p>Каждая часть системы функционирует отдельно</p>
+            </div>
+
+            <div class="column-right">
+                <img src="./img/01-basic/google-services.jpg">
+            </div>
+        </section>
+
+        <section>
+            <h3>Как общаются программы?</h3>
+            <p>Протокол</p>
+            <div>
+                <img src="./img/01-basic/pdd.jpg">
+            </div>
+        </section>
+
+        <section>
+            <h3>Как общаются программы?</h3>
+
+            <p>API (Application Program Interface)</p>
+            <div>
+                <img src="./img/01-basic/cabin.jpg">
+            </div>
+        </section>
+
+        <!--<section data-background="./img/background.jpg"></section>-->
     </div>
 
 </div>
